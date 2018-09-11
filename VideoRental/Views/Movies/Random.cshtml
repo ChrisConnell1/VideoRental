@@ -1,0 +1,26 @@
+﻿@model VideoRental.ViewModels.RandomMovieViewModel
+@{
+    ViewBag.Title = "Random";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{ 
+    var className = Model.Customers.Count > 0 ? "popular" : null;
+}
+
+
+<h2 class="@className">Movies</h2>
+
+@if (Model.Customers.Count == 0)
+{
+    <p>Nobody has rented this movie before.</p>
+}
+else
+{
+    <ul>
+        @foreach (var movie in Model.Movies)
+        {   
+            <li>@movie.Name</li>
+        }
+    </ul>
+}
