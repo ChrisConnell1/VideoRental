@@ -135,3 +135,5 @@ C:\Users\conne\source\repos\VideoRental\VideoRental\obj\Debug\VideoRental.Migrat
 C:\Users\conne\source\repos\VideoRental\VideoRental\obj\Debug\VideoRental.Migrations.FixGenreIdInMovies.resources
 C:\Users\conne\source\repos\VideoRental\VideoRental\obj\Debug\VideoRental.Migrations.FixDateTimes.resources
 C:\Users\conne\source\repos\VideoRental\VideoRental\obj\Debug\VideoRental.Migrations.FixReleaseDateTime.resources
+C:\Users\conne\source\repos\VideoRental\VideoRental\obj\Debug\VideoRental.Migrations.MakeDatesNullable.resources
+C:\Users\conne\source\repos\VideoRental\VideoRental\obj\Debug\VideoRental.Migrations.ChangeGenreIDtoInt.resources

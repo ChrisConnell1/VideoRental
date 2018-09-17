@@ -263,6 +263,14 @@
     <Compile Include="Migrations\201809152355336_FixReleaseDateTime.Designer.cs">
       <DependentUpon>201809152355336_FixReleaseDateTime.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201809162223489_MakeDatesNullable.cs" />
+    <Compile Include="Migrations\201809162223489_MakeDatesNullable.Designer.cs">
+      <DependentUpon>201809162223489_MakeDatesNullable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809162321092_ChangeGenreIDtoInt.cs" />
+    <Compile Include="Migrations\201809162321092_ChangeGenreIDtoInt.Designer.cs">
+      <DependentUpon>201809162321092_ChangeGenreIDtoInt.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -273,6 +281,8 @@
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="ViewModels\CustomerFormViewModel.cs" />
+    <Compile Include="ViewModels\MovieFormViewModel.cs" />
     <Compile Include="ViewModels\RandomMovieViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -385,6 +395,8 @@
     <Content Include="Views\Customer\Details.cshtml" />
     <Content Include="Views\Movies\Index.cshtml" />
     <Content Include="Views\Movies\Details.cshtml" />
+    <Content Include="Views\Customer\CustomerForm.cshtml" />
+    <Content Include="Views\Movies\MovieForm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -446,6 +458,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201809152355336_FixReleaseDateTime.resx">
       <DependentUpon>201809152355336_FixReleaseDateTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809162223489_MakeDatesNullable.resx">
+      <DependentUpon>201809162223489_MakeDatesNullable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809162321092_ChangeGenreIDtoInt.resx">
+      <DependentUpon>201809162321092_ChangeGenreIDtoInt.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
